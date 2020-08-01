@@ -1,0 +1,30 @@
+package addition;
+
+import java.util.Scanner;
+public class Addition {
+    private static Object Sc;
+
+    public static void main(String[] args) {
+        // TODO code application logic here
+     Scanner in=new Scanner(System.in);
+        int a,b,c;
+        System.out.println("Enter first number");
+        a=in.nextInt();
+        System.out.println("Enter second number");
+        b=in.nextInt();
+        c=a+b;
+        System.out.println("Addition is"+c);
+    }
+    
+}
+
+
+Output:
+run:
+Enter first number
+2
+Enter second number
+3
+Addition is5
+BUILD SUCCESSFUL (total time: 17 seconds)
+
