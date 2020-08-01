@@ -1,0 +1,17 @@
+package helloworld;
+
+public class Helloworld {
+
+    public static void main(String[] args) 
+    {
+        System.out.println("Helloworld");
+    }
+    
+}
+
+
+
+Output:
+run:
+Helloworld
+BUILD SUCCESSFUL (total time: 0 seconds)
