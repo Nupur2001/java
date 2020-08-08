@@ -1,0 +1,109 @@
+If else case:
+
+package greater.number;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author NUPUR
+ */
+public class GreaterNumber {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args)
+    {
+        Scanner in=new Scanner(System.in);
+        int a,b;
+        System.out.println("Enter first  number");
+        a=in.nextInt();
+        System.out.println("Enter second  number");
+        b=in.nextInt();
+        if(a>b) 
+        {
+            System.out.println("The greatest :"+a);
+        }
+      
+    else
+        {
+    System.out.println("The greatest:"+b);
+    }
+    }
+}
+    
+Output:run:
+Enter first  number
+6
+Enter second  number
+7
+The greatest:7
+BUILD SUCCESSFUL (total time: 12 seconds)
+
+
+Switch case:
+package food.pkgswitch.pkgcase;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author NUPUR
+ */
+public class FoodSwitchCase {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner in=new Scanner(System.in);
+        int food;
+System.out.println("Food Item: sandwich\n");
+System.out.println("Food Item: pizza\n");
+System.out.println("Food Item: burger\n");
+System.out.println("Food Item: pasta\n");
+System.out.println("Food Item: chowmein");
+food=in.nextInt();
+switch(food)
+{
+case 1:
+System.out.println("Price- Rs125\n");
+break;
+case 2:
+System.out.println("Price- Rs200\n");
+break;
+case 3:
+System.out.println("Price- Rs150\n");
+break;
+case 4:
+System.out.println("Price- Rs140\n");
+break;
+case 5:
+System.out.println("Price- Rs290");
+break;	
+case 6:
+System.out.println("Sorry but its not available");
+break;
+}
+
+    }
+    }
+    
+    Output:
+    run:
+Food Item: sandwich
+
+Food Item: pizza
+
+Food Item: burger
+
+Food Item: pasta
+
+Food Item: chowmein
+5
+Price- Rs290
+BUILD SUCCESSFUL (total time: 16 seconds)
+
+    
+
