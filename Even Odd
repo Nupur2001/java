@@ -1,0 +1,40 @@
+package evenodd;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author NUPUR
+ */
+public class Evenodd {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner in=new Scanner(System.in);
+        int i ;
+        System.out.println("Enter a number");
+        i=in.nextInt();
+        {
+        {
+            if(i%2==0)
+            {
+                System.out.println("Entered number is even");
+            }
+            else
+            {
+                System.out.println("Entered number is odd");
+            }
+            
+            }
+        }
+        // TODO code application logic here
+    }
+    
+}
+
+        // TODO code application logic here
+    
+    
+
