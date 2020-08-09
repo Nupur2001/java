@@ -24,5 +24,4 @@ public class ConversionOfNoOfDaysIntoYearsAndDays {
         System.out.println((int)min+"minutes is approxmately"+years+"years and"+days+"days");
         // TODO code application logic here
     }
-    
-}
+    }
