@@ -1,4 +1,4 @@
-ackage conversion.of.no.of.days.into.years.and.days;
+package conversion.of.no.of.days.into.years.and.days;
 
 import java.util.Scanner;
 
