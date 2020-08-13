@@ -1,0 +1,47 @@
+package employe;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author NUPUR
+ */
+public class Employe {
+
+   String Name;
+   int YearOfJoining;
+   String Address;
+    
+public void getdata(){
+    Scanner in=new Scanner(System.in);
+
+    System.out.println("Enter employee Name");
+    Name=in.next();
+        System.out.println("Enter employee YearOfJoining");
+   YearOfJoining =in.nextInt();
+        System.out.println("Enter employee Address");
+    Address=in.next();
+}
+ public void display(){
+     System.out.println("Enter employee Name"+Name);
+     System.out.println("Enter employee YearOfJoining"+YearOfJoining);
+     System.out.println("Enter employee Address"+Address);
+     
+ }
+      public static void main(String[] args) {
+    Employe e[]=new Employe[3];
+    for(int i=0;i<3;i++){
+    e[i]=new Employe();
+    e[i].getdata();
+    System.out.println("Data Entered below:");
+    {
+    for(i=0;i<3;i++)
+{
+e[i].display();
+}
+}
+}
+     
+ }   
+    
+}
