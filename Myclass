@@ -1,0 +1,27 @@
+package myclass;
+
+/**
+ *
+ * @author NUPUR
+ */
+public class Myclass {
+
+    /**
+     * @param args the command line arguments
+     */
+    int x=5;
+    int y=10;
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Myclass obj1=new Myclass();
+        Myclass obj2 = new Myclass();
+        System.out.println("Output of MyClass is"+obj1.x);
+        System.out.println("Output of MyClass is"+obj2.x);
+    }
+    
+}
+Output:
+run:
+Output of MyClass is5
+Output of MyClass is5
+BUILD SUCCESSFUL (total time: 0 seconds)
