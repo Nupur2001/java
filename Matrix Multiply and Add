@@ -11,7 +11,7 @@ public class MatrixAM {
                 c[i][j]=a[i][j]+b[i][j];
             
                 
-                System.out.println(c[i][j]+"");
+                System.out.print(c[i][j]+"");
             }    
                 System.out.println();
         }
@@ -22,18 +22,9 @@ public class MatrixAM {
 
 
 Output:run:
-2
-6
-8
-
-4
-8
-6
-
-4
-6
-9
-
+2	6	8	
+4	8	6	
+4	6	9	
 BUILD SUCCESSFUL (total time: 0 seconds)
 
 
@@ -54,24 +45,15 @@ public static void main(String[] args) {
                 c[i][j]=a[i][k]*b[k][j];
                 }
                 
-                System.out.println(c[i][j]+"");
+                System.out.print(c[i][j]+"\t");
             }    
                 System.out.println();
         }
     }
     Output:run:
-4
-8
-16
-
-3
-6
-12
-
-5
-10
-20
-
+4	8	16	
+3	6	12	
+5	10	20	
 BUILD SUCCESSFUL (total time: 0 seconds)
 
     
