@@ -1,0 +1,64 @@
+package cbseresultcalculator;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Lenovo
+ */
+public class Cbseresultcalculator {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[ ] args)
+    {
+        System.out.println("CBSE BOARD CALCULATOR \n");
+        int maths;
+        int english;
+        int physics;
+        int chemistry;
+        int pd;
+        float total,percentage,average;
+          Scanner  in = new  Scanner(System.in);
+        System.out.println("Enter maths number ");
+        maths=in.nextInt();
+        System.out.println("Enter english number");
+        english=in.nextInt();
+        System.out.println("Enter physics number");
+        physics=in.nextInt();
+        System.out.println("Enter chemistry number");
+        chemistry=in.nextInt();
+        System.out.println("Enter pd number");
+        pd=in.nextInt();
+        total=maths+english+physics+chemistry+pd;
+        average=total/5;
+        percentage=(total/5)*100;
+        System.out.println("total is:"+total);
+        System.out.println("average is"+average);
+         System.out.println("percentage is"+percentage +"%");
+        // TODO code application logic here
+    }
+}
+   
+   
+   
+   
+   
+   Output:
+   CBSE BOARD CALCULATOR 
+
+Enter maths number 
+45
+Enter english number
+67
+Enter physics number
+89
+Enter chemistry number
+88
+Enter pd number
+100
+total is:389.0
+average is77.8
+percentage is7780.0005%
+BUILD SUCCESSFUL (total time: 20 seconds)
