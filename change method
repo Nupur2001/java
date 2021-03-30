@@ -1,0 +1,16 @@
+public class Change_method {
+    static void change(int a) {
+        a = 90;
+    }
+
+        {
+            static void change1(int [] arr){
+            arr[0] = 97;
+        }
+        }
+        public static void main (String[] args){
+//    Case1: Changing the integer
+//        int[] marks={60,50,40,30,20,10};
+//        int x=98;
+//        change(x);
+//        System.out.println("The value of x after change:"+x);
