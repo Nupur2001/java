@@ -1,0 +1,42 @@
+import java.util.Random;
+import java.util.Scanner;
+
+public class Rock_Paper_Scissor_Game {
+    public static void main(String[] args) {
+        int P1, P2;
+        Scanner in = new Scanner(System.in);
+        System.out.println("WELCOME TO THE ROCK PAPER SCISSOR GAME");
+//        String Stone = in.nextLine();
+//        String Paper = in.nextLine();
+//        String Scissor = in.nextLine();
+//        String Tie = in.nextLine();
+//        String Quit = in.nextLine();
+        System.out.println("ENTER MOVE(0=Stone;1=Paper;3=Scissor;4=Tie;5=Quit;)");
+        P1 = in.nextInt();
+//        System.out.println("ENTER MOVE(0=Stone;1=Paper;3=Scissor;4=Tie;5=Quit;)");
+        Random random=new Random();
+        P2 = in.nextInt();
+        if (P1 == P2) {
+            System.out.println("Draw");
+        } else if (P1 == 0 && P2 == 2 || P1 == 1 && P2 == 0 || P1 == 2 && P2 == 1) {
+            System.out.println("You win");
+        } else {
+            System.out.println("Computer wins");
+        }
+        if (P2 == 0) {
+            System.out.println("Computer choice: Rock");
+        } else if (P2 == 1) {
+            System.out.println("Computer choice: Paper");
+        } else if (P2 == 2) {
+            System.out.println("Computer choice: Scissors");
+
+
+        }
+    }
+}
+
+   
+   
+   
+   Output:
+   
