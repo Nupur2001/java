@@ -1,0 +1,87 @@
+// TommyVecetti_oops
+public class TommyVecetti_oops {
+     static class game{
+        void start(){
+            System.out.println("Stated");
+        }
+        void hit(){
+            System.out.println("Hitting");
+        }
+        void run(){
+            System.out.println("Running");
+        }
+        void fire(){
+            System.out.println("Firing");
+        }
+    }
+    public static void main(String[] args) {
+    game TV= new game();
+    TV.start();
+    TV.hit();
+    TV.run();
+    TV.fire();
+    }
+    }
+    //Circle oops
+    package com.company;
+
+public class circle_oops {
+    float r;
+    float pi;
+    public float area(){
+        return pi*r*r;
+    }
+    public float perimeter(){
+        return 2*pi*r;
+    }
+    public static void main(String[] args) {
+        circle_oops c=new circle_oops();
+        c.pi=3.14f;
+        c.r=1.2f;
+        System.out.println(c.area());
+        System.out.println(c.perimeter());
+    }
+}
+
+//rectangle oops
+package com.company.rectangle;
+
+public class oops {
+    int length;
+    int width;
+    public int area(){
+        return length * width;
+    }
+    public int parameter(){
+        return 2 * length * width;
+    }
+
+    public static void main(String[] args) {
+        oops rec=new oops();
+        rec.length=5;
+        rec.width=2;
+        System.out.println(rec.area());
+        System.out.println(rec.parameter());
+    }
+}
+
+//Square oops
+package com.company;
+
+public class square_oops {
+    int side;
+    public int area(){
+        return side*side;
+    }
+    public int parameter(){
+        return side*4;
+    }
+    public static void main(String[] args) {
+    square_oops sol=new square_oops();
+    sol.side=2;
+        System.out.println(sol.area());
+        System.out.println(sol.parameter());
+    }
+}
+
+
