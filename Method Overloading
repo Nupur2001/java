@@ -1,0 +1,24 @@
+public class method_overloading {
+    static void foo(){
+        System.out.println("Hello");
+    }
+    static void fee(String a){
+        System.out.println("Hey"+a+"Java");
+    }
+    static void feo(int a, int b,int c){
+
+         c=a+b;
+        System.out.println("c"+c);
+
+    }
+    public static void main(String[] args) {
+    foo();
+    fee("HELLO");
+        feo(20, 10, 30);
+    }
+}
+
+Output
+Hello
+HeyHELLOJava
+c30
