@@ -1,0 +1,36 @@
+package com.company;
+import java.util.*;
+public class arraylist_ds extends Thread{
+    public static void main(String[] args) {
+
+        ArrayList<Integer> l1 = new ArrayList<>();
+        l1.add(1);
+        l1.add(2);
+        l1.add(3);
+        l1.add(4);
+        l1.add(6);
+        l1.add(5,5);  // inserts 5 at the 5th index in l1
+        System.out.println(l1);
+        System.out.println("The first occurrence of 3 in l1 is at index : " + l1.indexOf(3));
+//        System.out.println("Before removing any element"+l1);
+//        l1.remove(5); //removal of an element
+//        System.out.println("After removal"+l1);
+//        System.out.println("Checking Specific element inn the given array");
+//        System.out.println("Is 3 in the arraylist?"+l1.contains(3));
+//        System.out.println("Is 9 in the arraylist?"+l1.contains(9));
+
+
+
+//        merging 2 arraylists
+        ArrayList<Integer> l2 = new ArrayList<>();
+        l2.add(1);
+        l2.add(2);
+        l2.add(3);
+        l2.add(4);
+        l2.add(6);
+        l2.add(5,5);
+        System.out.println(l2);
+        l1.addAll(l2);
+        System.out.println("After merging l1 and l2"+ l1+l2);
+    }
+}
